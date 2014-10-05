@@ -6,8 +6,7 @@ $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  *  Description:  
  * =====================================================================================
  */
-void<CURSOR>
-|FUNCTION_NAME| ( <+argument list+> )
+void |FUNCTION_NAME| ( <CURSOR><+argument list+> )
 {
 <SPLIT>	return <+return value+>;
 }		/* -----  end of function |FUNCTION_NAME|  ----- */
@@ -19,8 +18,7 @@ $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  *  Description:  
  * =====================================================================================
  */
-static void<CURSOR>
-|FUNCTION_NAME| ( <+argument list+> )
+static void |FUNCTION_NAME| ( <CURSOR><+argument list+> )
 {
 <SPLIT>	return <+return value+>;
 }		/* -----  end of static function |FUNCTION_NAME|  ----- */
@@ -34,8 +32,7 @@ $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  *  Description:  
  * =====================================================================================
  */
-int
-main ( int argc, char *argv[] )
+int main ( int argc, char *argv[] )
 {<CURSOR>
 <SPLIT>	return EXIT_SUCCESS;
 }				/* ----------  end of function main  ---------- */
@@ -59,14 +56,14 @@ union |?UNION_NAME| {<CURSOR>
 typedef union |UNION_NAME| |UNION_NAME:c|;
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == idioms.printf == insert ==
-printf ( "<CURSOR>\n" );
+printf("<CURSOR>\n");
 == idioms.scanf == insert ==
-scanf ( "<CURSOR>", & );
+scanf("<CURSOR>", & );
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == idioms.calloc ==
 |?POINTER|	= calloc ( (size_t)(<CURSOR><+COUNT+>), sizeof(<+TYPE+>) );
 if ( |POINTER|==NULL ) {
-	fprintf ( stderr, "\ndynamic memory allocation failed\n" );
+	fprintf(stderr, "\ndynamic memory allocation failed\n");
 	exit (EXIT_FAILURE);
 }
 

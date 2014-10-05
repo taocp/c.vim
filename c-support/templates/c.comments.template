@@ -45,12 +45,14 @@ $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  |AUTHOR| (|AUTHORREF|), |EMAIL|
+ *         Author:  |AUTHOR|
  *   Organization:  |ORGANIZATION|
  *
  * =====================================================================================
  */
 #include <stdlib.h>
+#include <stdio.h>
+#include <assert.h>
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.file-description-header == start ==
 /*
@@ -65,7 +67,7 @@ $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  |AUTHOR| (|AUTHORREF|), |EMAIL|
+ *         Author:  |AUTHOR|
  *   Organization:  |ORGANIZATION|
  *
  * =====================================================================================
