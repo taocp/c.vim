@@ -3,16 +3,17 @@ $ =============================================================
 $ ========== USER MACROS ======================================
 $ =============================================================
 $
-|AUTHOR|    = 
-|EMAIL|     = 
-|COMPANY|   = 
+|AUTHOR|    =
+|EMAIL|     =
+|COMPANY|   =
 |COPYRIGHT| = Copyright (c) |YEAR|, |AUTHOR|
-|STYLE|     = default
+|STYLE|     = C
 $
 $ =============================================================
 $ ========== FILE INCLUDES ====================================
 $ =============================================================
 $
+== IF |STYLE| IS C ==
 |includefile| = c.comments.template
 |includefile| = c.cpp.template
 |includefile| = c.idioms.template
